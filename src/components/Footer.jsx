@@ -44,7 +44,7 @@ export default function Footer() {
                 <div className="bg-[#00E5FF]/10 p-2 rounded-lg border border-[#00E5FF]/20 group-hover:bg-[#00E5FF]/20 transition-all">
                   <Github className="w-4 h-4 text-[#00E5FF]" />
                 </div>
-                <span className="group-hover:text-[#00E5FF] transition-colors">Github</span>
+                <span className="group-hover:text-[#00E5FF] transition-colors">Github\taahabz</span>
               </a>
             </li>
           </ul>
@@ -73,7 +73,7 @@ export default function Footer() {
         <div className="bg-[#00E5FF]/10 p-2 rounded-lg border border-[#00E5FF]/20 group-hover:bg-[#00E5FF]/20 transition-all">
           <Github className="w-4 h-4 text-[#00E5FF]" />
         </div>
-        <span className="group-hover:text-[#00E5FF] transition-colors">GitHub</span>
+        <span className="group-hover:text-[#00E5FF] transition-colors">GitHub\HamzaHannan001</span>
       </a>
     </li>
   </ul>
@@ -103,7 +103,7 @@ export default function Footer() {
                 <div className="bg-[#00E5FF]/10 p-2 rounded-lg border border-[#00E5FF]/20 group-hover:bg-[#00E5FF]/20 transition-all">
                   <Github className="w-4 h-4 text-[#00E5FF]" />
                 </div>
-                <span className="group-hover:text-[#00E5FF] transition-colors">Github</span>
+                <span className="group-hover:text-[#00E5FF] transition-colors">Github\hubgit1899</span>
               </a>
             </li>
 
