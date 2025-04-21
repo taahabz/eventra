@@ -50,7 +50,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Team Member Section - HAMZA */}
        {/* Team Member Section - HAMZA */}
 <div className="space-y-4">
   <h4 className="font-bold text-white text-sm tracking-wider uppercase flex items-center">
