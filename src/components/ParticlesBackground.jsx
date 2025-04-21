@@ -44,13 +44,13 @@ export default function ParticlesBackground() {
               enable: true,
               area: 1000, // Increased area to reduce particle density
             },
-            value: 100, // Reduced number of particles
+            value: 200, // Reduced number of particles
           },
           opacity: {
-            value: { min: 0.1, max: 0.3 }, // Lower opacity
+            value: { min: 0.1, max: 0.4 }, // Lower opacity
             animation: {
               enable: true,
-              speed: 0.3, // Slower animation
+              speed: 0.4, // Slower animation
               minimumValue: 0.1,
               sync: false,
             },
@@ -87,7 +87,7 @@ export default function ParticlesBackground() {
               },
             },
             push: {
-              quantity: 2, // Reduced from 4
+              quantity: 4, // Reduced from 4
             },
           },
         },
