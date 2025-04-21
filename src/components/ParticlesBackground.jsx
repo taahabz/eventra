@@ -17,7 +17,7 @@ export default function ParticlesBackground() {
             value: "transparent", // Changed to transparent so it doesn't cover content
           },
         },
-        fpsLimit: 60, // Reduced from 120 to improve performance
+        fpsLimit: 60,
         particles: {
           color: {
             value: ["#ffffff", "#00E5FF", "#88d8ff", "#aaaaaa"],
