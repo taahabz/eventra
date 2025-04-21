@@ -8,11 +8,11 @@ const Navbar = () => {
     { text: 'Home', path: '#', isHighlighted: true },
     { text: 'Events', path: '#' },
     { text: 'Guests', path: '#' },
-    { text: 'About', path: '#' }
+    { text: 'Contact', path: '#' }
   ];
 
   return (
-    <div className="sticky top-0 z-50 bg-[#0f1621] py-4 px-4 navbar-container">
+    <div className="sticky top-0 z-50 bg-[#0f1621] py-4 px-0 w-full">
       {/* Announcement Bar */}
       <div className="max-w-7xl mx-auto mb-4 bg-[#00E5FF]/10 border border-[#00E5FF]/20 text-[#00E5FF] text-xs sm:text-sm font-semibold py-2 px-2 sm:px-0 text-center rounded-xl shadow-md">
         MANAGE YOUR EVENT GUESTS EASILY WITH EVENTRA
@@ -27,7 +27,6 @@ const Navbar = () => {
             <a href="#">
               <div className="flex items-center gap-2 sm:gap-3">
                 <span className="text-lg sm:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00E5FF] to-[#c471ed]">EVENTRA</span>
-                <span className="bg-[#00E5FF] text-black text-[10px] sm:text-xs px-1.5 sm:px-2 py-0.5 rounded">BETA</span>
               </div>
             </a>
           </div>
@@ -67,12 +66,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Desktop Right Actions */}
-          <div className="hidden md:flex items-center gap-4">
-            <button className="bg-gradient-to-r from-[#00E5FF] to-[#c471ed] hover:opacity-90 text-black px-4 py-2 rounded-full text-sm font-semibold transition-colors">
-              Sign In
-            </button>
-          </div>
+      
         </div>
 
         {/* Mobile Menu - Animated */}
@@ -91,9 +85,7 @@ const Navbar = () => {
                 {link.text}
               </a>
             ))}
-            <button className="bg-gradient-to-r from-[#00E5FF] to-[#c471ed] hover:opacity-90 text-black px-4 py-2 rounded-full text-sm font-semibold transition-colors mt-2">
-              Sign In
-            </button>
+
           </div>
         </div>
       </div>

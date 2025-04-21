@@ -14,10 +14,10 @@ export default function ParticlesBackground() {
       options={{
         background: {
           color: {
-            value: "#0f1621", // Dark blue background
+            value: "transparent", // Changed to transparent so it doesn't cover content
           },
         },
-        fpsLimit: 120,
+        fpsLimit: 60, // Reduced from 120 to improve performance
         particles: {
           color: {
             value: ["#ffffff", "#00E5FF", "#88d8ff", "#aaaaaa"],
@@ -26,12 +26,12 @@ export default function ParticlesBackground() {
             color: "#00E5FF",
             distance: 150,
             enable: true,
-            opacity: 0.3,
+            opacity: 0.2, // Reduced opacity
             width: 1,
           },
           move: {
             enable: true,
-            speed: 0.5,
+            speed: 0.3, // Slower speed
             direction: "none",
             random: true,
             straight: false,
@@ -42,15 +42,15 @@ export default function ParticlesBackground() {
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1000, // Increased area to reduce particle density
             },
-            value: 100,
+            value: 100, // Reduced number of particles
           },
           opacity: {
-            value: { min: 0.1, max: 0.5 },
+            value: { min: 0.1, max: 0.3 }, // Lower opacity
             animation: {
               enable: true,
-              speed: 0.5,
+              speed: 0.3, // Slower animation
               minimumValue: 0.1,
               sync: false,
             },
@@ -59,10 +59,10 @@ export default function ParticlesBackground() {
             type: "circle",
           },
           size: {
-            value: { min: 1, max: 3 },
+            value: { min: 1, max: 2 }, // Smaller particles
             animation: {
               enable: true,
-              speed: 1,
+              speed: 0.5, // Slower animation
               minimumValue: 0.1,
               sync: false,
             },
@@ -83,11 +83,11 @@ export default function ParticlesBackground() {
             grab: {
               distance: 140,
               links: {
-                opacity: 0.5,
+                opacity: 0.3,
               },
             },
             push: {
-              quantity: 4,
+              quantity: 2, // Reduced from 4
             },
           },
         },
